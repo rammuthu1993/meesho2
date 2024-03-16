@@ -1,0 +1,799 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    
+}
+#mdiv1{
+    width: 100%;
+    height: 80px;
+     background-color:rgb(252, 250, 250);
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family:'Times New Roman', Times, serif;
+     color: rgb(129, 127, 127);
+     position: fixed;
+     top: 0px;
+     z-index: 1000;
+}
+@media all and(max-width:780px){
+    #mdiv1{
+       
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}
+#mdiv1 input[type=text]{
+    background: url(/26/download.png) no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    }
+#mdiv1 input:focus{
+        border: 2px solid red;
+        outline: red;
+}
+#input1{
+    width: 380px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(98, 97, 97);
+    font-size: 14px;
+    color: gray;
+}
+.mdiv11{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 680px;
+    height: 80px;
+    background-color:rgb(252, 250, 250);
+    }
+.mdiv11 img{
+    margin-top: -10px;
+}    
+
+.mdiv12{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 580px;
+    height: 80px;
+    background-color:rgb(252, 250, 250);
+    
+}
+.mdiv12 h3{
+    border-right: 2px solid rgb(197, 195, 195);
+    padding-right: 30px;
+    height: 30px;
+    padding-top: 5px;
+    
+    }
+.mdiv13{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 150px;
+    height: 80px;
+    background-color:rgb(252, 250, 250);
+    
+    
+}
+.supcard{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    box-shadow: 2px 2px 2px inset;
+    display: none;
+    position: absolute;
+    line-height: 20px;
+    margin-left: -125px;
+    padding: 40px 25px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    
+   
+}
+.supcard hr{
+    color: rgb(251, 244, 244);
+    height: .1px;
+}
+.supcard h4{
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+    padding-top: 8px;
+}
+.supcard small{
+color: rgb(180, 177, 177);
+}
+.supcard a{
+text-decoration: none;
+padding: 10px 20px;
+background-color: rgb(141, 9, 141);
+color: white;
+font-size: 20px;
+font-weight: bold;
+border-radius: 5px;
+
+
+}
+.mdiv13 section:hover .supcard{
+    display:block ;
+    
+
+}
+#mdiv2{
+width: 100%;
+height: 50px;
+background-color:rgb(252, 250, 250);
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-family:'Times New Roman', Times, serif;
+color: rgb(129, 127, 127);
+border-top:1px solid rgb(129, 127, 127) ;
+border-bottom:1px solid rgb(129, 127, 127) ;
+position: fixed;
+top:80px;
+}
+@media all and(max-width:780px){
+    #mdiv2{
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+#mdiv2 .data1{
+    width: 1320px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    border: 2px solid rgb(204, 204, 251);
+    box-shadow: 3px 3px 3px;
+    display: none;
+    box-sizing: border-box;
+    margin-top: 13px;
+    
+}
+#mdiv2 .data2{
+    width: 1320px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    border: 2px solid rgb(204, 204, 251);
+    box-shadow: 3px 3px 3px;
+    display: none;
+
+    
+}
+#mdiv2 .data3{
+    display: flex;
+    
+    }
+  
+#mdiv2 a{
+    text-decoration: none;
+    color: gray;
+}
+#mdiv2 h4{
+color: rgb(181, 27, 181);
+}
+#mdiv2 li{
+    line-height:40px ;
+    padding-right: 60px;
+}
+#mdiv2 .data3 ul:nth-child(even){
+    background-color:aliceblue ;
+}
+#slidef{
+    width: auto;
+    height: 50px;
+    padding: 15px;
+    
+}
+
+
+#slidef:hover .data1{
+    display: block;
+    position: absolute;
+    left: auto;
+}
+#slidef:hover .data1{
+    display: block;
+}
+#slidef:hover{
+border-bottom:4px solid rgb(202, 17, 202);
+}
+
+.data1 table td:nth-child(even),th:nth-child(even){
+    background-color: aliceblue;
+    display
+}
+
+
+
+td{
+    line-height: 40px;
+    border-radius:5px;
+    padding: 10px;
+    
+    
+}
+th{
+    border-radius:5px;
+    color: rgb(180, 21, 180);
+    padding: 10px;
+}
+
+
+#card1{
+    width: 1100px;
+    height: 350px;
+    background-color: rgb(239, 239, 254);
+    margin-top: 60px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    }
+#card1 img{
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}    
+#card2{
+width: 550px;
+height:400px ;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+position: relative;
+
+
+}
+#card1 .tit1 h1{
+    font-size: 50px;
+    color: rgb(61, 59, 59);
+    margin-top: 0px;
+}
+#card1 .infor{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    margin-left:0px ;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+}
+#card1 .infor #info{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#card1 .buttonf{
+    width: 350px;
+    height: 50px;
+    background-color:rgb(153, 3, 153);
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    margin-left: -120px;
+    margin-bottom:30px;
+}
+#catef{
+    width: 1100px;
+    height: 80px;
+    background-color: white;
+    font-size: 21px;
+    margin-left: 140px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+#catef #hr1{
+    width: 250px;
+    color: violet;
+    margin-left: 0px;
+    margin-top: 25px;
+    position: absolute;
+    
+}
+#catef #hr2{
+    width: 250px;
+    color: violet;
+    margin-left: 900px;
+    position: absolute;
+    margin-top: -25px;
+    
+}
+#card1{
+    width: 1100px;
+    height: 550px;
+    background: url(/meeshobanner.webp) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 160px;
+    margin-left: 140px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding:35px;
+    position: relative;
+    z-index: -114;
+}
+#card1 img{
+    padding: 10px;
+}
+#bann2{
+    width: 1100px;
+    height: 550px;
+    background: url(/meeshobann2.webp) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 60px;
+    margin-left: 140px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#bann2 #imgtit1{
+    background-color: rgb(84, 5, 158);
+    border: 8px solid rgb(228, 24, 92);
+    padding: 10px 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 25px;
+    }
+#bann2 #imgtit{
+    background-color: rgb(84, 5, 158);
+    
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 50px;
+}    
+#bann2 img{
+    padding: 25px;
+}
+#bann2{
+    width: 1100px;
+    height: 550px;
+    background: url(/meeshobann2.webp) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 60px;
+    margin-left: 140px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#bann2 #imgtit1{
+    background-color: rgb(84, 5, 158);
+    border: 8px solid rgb(228, 24, 92);
+    padding: 10px 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 25px;
+    }
+#bann2 #imgtit{
+    background-color: rgb(84, 5, 158);
+    
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 50px;
+}    
+#bann2 img{
+    padding: 25px;
+}
+#bann3{
+    width: 1100px;
+    height: 550px;
+    background: url(/26/newsty.webp) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 60px;
+    margin-left: 140px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#bann3 #imgtit1{
+    background-color: rgb(84, 5, 158);
+    border: 8px solid rgb(228, 24, 92);
+    padding: 10px 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 25px;
+    }
+#bann3 #imgtit{
+    background-color: rgb(84, 5, 158);
+    
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 50px;
+}    
+#bann3 img{
+    padding: 25px;
+}
+#bann4{
+    width: 1100px;
+    height: 550px;
+    background:url(/26/downloadBannerDesktop_1050.webp) no-repeat ;
+    background-size: 100% 100%;
+    margin-top: 60px;
+    margin-left: 140px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+#bann4 section:nth-child(1){
+    color: rgb(95, 95, 251);
+    font-size: 40px;
+    padding-bottom: 20px;
+    
+}
+#bann4 section:nth-child(2){
+    color:rgb(141, 4, 141);
+    font-size: 50px;
+    line-height: 50px;
+   padding-bottom: 20px;
+}
+#bann4 #sbannimg{
+    border-radius: 4px;
+}
+.sbann4{
+    width: 600px;
+    height:350px;
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+#bann5{
+    width: 1100px;
+    height: 300px;
+    background: url(/26/supplyBannerDesktop_1106.webp);
+    margin-top: 60px;
+    margin-left: 140px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    z-index: -110;
+}
+#bann5 h1{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 70px;
+    position: absolute;
+}
+#bann5 p{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+#bann5 h3{
+    display: inline;
+    border-right: 1px solid white;
+    padding: 0px 30px;
+    
+}
+#bann5 .fa-check{
+    padding: 2px;
+    background-color: green;
+    border-radius: 50%;
+}
+#bann5 span{
+    margin-left: 40px;
+}
+#bann5 a{
+    color: rgb(174, 14, 174);
+    padding: 10px 20px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 21px;
+    margin-left: 70px;
+    width: 160px;
+    display: block;
+    border-radius: 4px;
+}
+.firstlist .firstcate{
+
+    width: 330px;
+    height: auto;
+    background-color: white;
+    line-height: 40px;
+    transform: translate(-30px, 20px);
+    display: none;
+}
+.lisid:hover .firstcate{
+    display: block;
+}
+.lisid:hover .fa-angle-down{
+    transform: rotate(180deg);
+}
+.fa-angle-down{
+    
+}
+.firstcate input{
+width: 300px;
+height: 40px;
+border-radius: 4px;
+}
+.firstcate input[type=text]{
+    background: url(/26/download.png) no-repeat;
+    background-size: contain;
+    display:flex;
+    flex-direction: row;
+    place-items:30px ;
+    
+}
+.firstcate input[type=text]::placeholder{
+    
+}
+.firstcate input[type="checkbox"],label{
+    width: auto;
+    height: auto;
+}
+.gender{
+    padding:5px 10px;
+    background-color: white;
+    border: 2px solid rgb(221, 220, 220);
+    border-radius: 15px;
+    position: relative;
+    margin: 5px 5px;
+}
+.lisid .gendis{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+.genslide{
+    display:none;
+    width: 200px;
+    height: auto;
+   
+    
+}
+.lisid:hover .genslide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+
+
+#tall{
+    width: 100%;
+    height: 7500px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: -100;
+
+}
+
+#titnameone{
+    width: 340px;
+    height: 4000px;
+    border: 2px solid rgb(211, 206, 206);
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 130px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+}
+.smft{
+    width: 340px;
+    height:50px ;
+    background-color: white;
+    display: flex;
+    margin-left:10px;
+    font-size: 18px;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 40px;
+    z-index: -111;
+}
+
+.smft span{
+    color: gray;
+    padding-top: 10px;
+}
+.smft p{
+    padding-top: 10px;
+}
+.smft .fa-angle-right{
+    margin-left:170px;
+    padding-top: 10px;
+    }
+.smft  #lif{
+color: gray;
+width: 310px;
+height:250px;
+background-color: white;
+overflow: scroll;
+display: none;
+position: absolute;
+z-index: 34;
+}    
+.smft #lif li{
+    padding: 15px;
+}
+
+.smft:hover #lif{
+    display: block;
+    transform: translateY(50px);
+    }
+ .smft:hover .fa-angle-right{
+      transform: rotate(90deg);
+    }
+#sidetit{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    #titname{
+        width: 280px;
+        height: 60px;
+        border-bottom: 1px solid rgb(192, 188, 188);
+        position: absolute;
+        margin-top: 60px;
+    }
+    .firstlist li{
+        border-bottom: 1px solid rgb(192, 188, 188);
+        padding: 25px;
+        width: 280px;
+        
+    }
+    .firstlist{
+        margin-top: 130px;
+        position: absolute;
+        width: 340px;
+        height: auto;
+        margin-left: 60px;
+    }
+    .lisid{
+        width: 340px;
+        
+    }
+    
+ #bigger{
+    width: 950px;
+    height: 1000px;
+    position: absolute;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: safe;
+    margin-left: 350px;
+    z-index: -100;
+    box-sizing: border-box;
+ }   
+
+#bigger #subbig{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+    
+ }
+ #subbig img{
+    
+
+ }
+ #subbig .line1{
+    width: 200px;
+    color: rgb(152, 151, 151);
+ }
+ .line2{
+ width: 200px;
+  display: flex;
+  
+ }
+ .line3{
+ width: 200px;
+    padding: 5px;
+    background-color: rgb(214, 231, 246);
+    width: 80px;
+    border-radius: 5px;
+    font-size: 11px;
+ }
+ .line4{
+ width: 200px;
+    color: wheat;
+    padding: 7px;
+    background-color: green;
+    width: 60px;
+    border-radius: 5px;
+    display: inline-block;
+ }
+ .off{
+    color: green;
+ }
+ @media screen and (max-width:768px){
+    body{
+        width: 50%;
+        height: auto;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
